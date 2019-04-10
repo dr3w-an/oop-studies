@@ -7,7 +7,7 @@ void fill(int **arr, int rows, int columns) {
     for (int i = 0; i < rows; i++) {
         arr[i] = new int[columns];
         for (int j = 0; j < columns; j++) {
-            arr[i][j] = rand() % 40 + 10;
+            arr[i][j] = rand() % 40 + 10;  // Случайное число от 10 до 50
         }
     }
 }

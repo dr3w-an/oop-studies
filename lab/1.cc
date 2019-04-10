@@ -18,11 +18,11 @@ class PersonalComputer {
         {};
         virtual ~PersonalComputer() = default;
 
-              std::string& cpu()       { return cpu_; }
-        const std::string& cpu() const { return cpu_; }
+              std::string& cpu()       { return cpu_; }        // Setter
+        const std::string& cpu() const { return cpu_; }        // Getter
 
-              int& frequency()         { return frequency_; }
-        const int& frequency() const   { return frequency_; }
+              int& frequency()         { return frequency_; }  // Setter
+        const int& frequency() const   { return frequency_; }  // Getter
 
         void print() {
             std::cout << "Процессор " << cpu_

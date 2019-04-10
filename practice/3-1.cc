@@ -27,7 +27,7 @@ struct library {
     book *books;
     int books_count;
     string address;
-    work_hours hours[7];
+    work_hours hours[7];  // Часы работы на каждый из 7 дней недели
 
     void display() {
         cout << "Список книг:" << endl;
