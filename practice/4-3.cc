@@ -1,7 +1,9 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
+
 using namespace std;
+
 
 void fill(int **arr, int rows, int columns) {
     for (int i = 0; i < rows; i++) {
@@ -28,6 +30,7 @@ int main() {
     cin >> rows;
     cout << "Введите количество столбцов: ";
     cin >> columns;
+    if ((rows <= 0) | (columns <= 0)) return 1;
 
     int **arr = new int *[rows];
 
