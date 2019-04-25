@@ -224,7 +224,7 @@ int main() {
     std::cout << '\n';
 
     // Тестирование функций вычисления выражений для функций
-    const double angle = -3.1415926 / 4;
+    const double angle = 3.1415926 * 0.75;
 
     Variable x('x');
     x.print();
