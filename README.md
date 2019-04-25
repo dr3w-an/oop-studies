@@ -9,3 +9,4 @@
 6. [practice/5.cc](https://github.com/dr3w-an/oop-studies/blob/master/practice/5.cc)
 7. [practice/5-4.cc](https://github.com/dr3w-an/oop-studies/blob/master/practice/5-4.cc)
 8. [practice/6-1.cc](https://github.com/dr3w-an/oop-studies/blob/master/practice/6-1.cc)
+9. [practice/6-2.cc](https://github.com/dr3w-an/oop-studies/blob/master/practice/6-2.cc)
