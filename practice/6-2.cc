@@ -19,7 +19,12 @@ class Constant: public Expression {
     public:
         Constant(double v): value(v) {}
 
-        void print() { std::cout << value; }
+        void print() {
+            if (value >= 0)
+                std::cout << value;
+            else
+                std::cout << '(' << value << ')';
+        }
         double calculate(double variable) { return value; }
         Expression *derivative() { return new Constant(0); }
         Expression *copy() { return new Constant(value); }
